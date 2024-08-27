@@ -1,4 +1,4 @@
-name: untitled5
+name: cosmetech
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -21,47 +21,42 @@ version: 1.0.0+1
 environment:
   sdk: ^3.5.0
 
-# Dependencies specify other packages that your package needs in order to work.
-# To automatically upgrade your package dependencies to the latest versions
-# consider running `flutter pub upgrade --major-versions`. Alternatively,
-# dependencies can be manually updated by changing the version numbers below to
-# the latest version available on pub.dev. To see which dependencies have newer
-# versions available, run `flutter pub outdated`.
+
+#------------------------ Packages------------------#
+
 dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  # utility packages
+  # icons
+  iconsax: ^0.0.8
+  carousel_slider: ^4.2.1
   cupertino_icons: ^1.0.8
+  #state management
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
+
   flutter_lints: ^4.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
+
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - images/
-
+    - assets/images/bubbles_14897931.png
+    - assets/images/perfume_14289213.png
+    - assets/images/brush_5040662.png
+    - assets/images/hair-conditioner_1807387.png
+    - assets/images/sunscreen_17249186.png
+    - assets/images/nail-polish_4200570.png
+    - assets/images/Garnier-SkinActive-Micellar-Cleansing-Water-All-in-1-Makeup-Remover-3-4-fl-oz_03c5f896-f38b-4507-81b8-8066c381e6ff.e54b775e6fc5486f63d965d7021ae3c1.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

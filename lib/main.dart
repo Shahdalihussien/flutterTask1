@@ -1,5 +1,8 @@
+import 'package:cosmetech/screens/home_screen.dart';
+import 'package:cosmetech/navigation_menu.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled5/screens/homescreen.dart';
+import 'package:get/get.dart';
+
 
 void main() {
   runApp( MyApp());
@@ -8,10 +11,11 @@ void main() {
 class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: NavigationMenu(),
     );
   }
+
 
 }
